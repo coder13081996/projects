@@ -7,14 +7,14 @@ from selenium import webdriver
 chromedriver = r"C:\Users\Bharat\Downloads\chromedriver"
 
 driver = webdriver.Chrome(chromedriver)
-driver.get('http://youtube.com')
+driver.get('https://munet.mu-sigma.com/Enterpriseview.aspx?html.app=EMuSigmaQMS1744d1')
 
 # searchbox = driver.find_element_by_id("search")
 
 
 
-searchbox = driver.find_element_by_xpath('//*[@id="search"]')
-searchbox.send_keys("StatQuest with Josh Starmer")
+# searchbox = driver.find_element_by_xpath('//*[@id="search"]')
+# searchbox.send_keys("StatQuest with Josh Starmer")
 
 # driver.find_element_by_name("Value").send_keys(Keys.ENTER)
 
